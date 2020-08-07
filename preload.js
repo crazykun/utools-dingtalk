@@ -11,7 +11,7 @@ function dingTalkInit() {
         dingTalkShow(browser_id)
     } else {
         utools.ubrowser.goto('https://im.dingtalk.com/')
-            .devTools('right')
+            // .devTools('right')
             .evaluate(dingTalkNotice, unreadTotal)
             .run({ width: 1000, height: 600 })
     }
@@ -53,7 +53,7 @@ function dingTalkNotice(unreadTotal) {
 function dingTalkShow(browser_id) {
     utools.ubrowser
         .show()
-        .devTools('right')
+        // .devTools('right')
         .run(browser_id)
 }
 
