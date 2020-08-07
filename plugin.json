@@ -1,0 +1,17 @@
+{
+	"pluginName": "钉钉",
+	"description": "钉钉网页版",
+	"main": "index.html",
+	"version": "0.0.1",
+	"logo": "logo.png",
+	"preload": "preload.js",
+	"homepage": "https://github.com/vfasky/utools-dingtalk",
+    "author": "vfasky<vfasky@me.com>",
+	"features": [
+		{
+		  "code": "dingTalk",
+		  "explain": "hello world",
+		   "cmds":["dingTalk", "钉钉", "钉", "dingding", "dd"]
+		}
+	]
+}
