@@ -6,12 +6,18 @@
 	"logo": "logo.png",
 	"preload": "preload.js",
 	"homepage": "https://github.com/crazykun/utools-dingtalk",
-    "author": "crazykun<jilikun@gmail.com>",
+	"author": "crazykun<jilikun@gmail.com>",
 	"features": [
 		{
-		  "code": "dingTalk",
-		  "explain": "hello world",
-		   "cmds":["dingTalk", "钉钉", "钉", "dingding", "dd"]
+			"code": "dingTalk",
+			"explain": "钉钉网页版-uTools客户端",
+			"cmds": [
+				"dd",
+				"dingTalk",
+				"dingding",
+				"钉",
+				"钉钉"
+			]
 		}
 	]
 }
